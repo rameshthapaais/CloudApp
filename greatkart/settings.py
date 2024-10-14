@@ -26,7 +26,7 @@ SECRET_KEY = 'n4y-7&dumx66*kk-=ya%y%6h!^o%gqvsmlwgbk2r3f9vc_fx=c'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['cloud-dwaxhcbacwdngucj.centralus-01.azurewebsites.net','*']
 
 
 # Application definition
