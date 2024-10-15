@@ -33,7 +33,7 @@ conn_str = os.environ['AZURE_POSTGRESQL_CONNECTIONSTRING']
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
+        'NAME': 'cloud-database',
         'HOST': 'cloud-server.postgres.database.azure.com',
         'USER': 'fbarcerhl',
         'PASSWORD': 'w0bXiITLc1M3RM$',
