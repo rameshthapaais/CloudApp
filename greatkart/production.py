@@ -36,7 +36,7 @@ DATABASES = {
         'NAME': conn_str_params['dbname'],
         'HOST': conn_str_params['host'],
         'USER': conn_str_params['user'],
-        'PASSWORD': '#Ankita09',
+        'PASSWORD': conn_str_params['password'],
     }
 }
 
